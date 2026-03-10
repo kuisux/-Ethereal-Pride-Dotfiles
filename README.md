@@ -12,14 +12,38 @@ This palette is engineered for professional readability by balancing deep "Night
 
 ### 🎨 The Palette
 
-| Color | Sample | Hex Code | Purpose |
-| :--- | :---: | :--- | :--- |
-| **Cotton Pink** | 💖 | `#F7A8B8` | Active Borders, Keywords |
-| **Sky Blue** | 💙 | `#5BCEFA` | Functions, Links, Selection |
-| **Cloud White** | 🤍 | `#FFFFFF` | Strings, Constants, Highlights |
-| **Deep Night** | 🖤 | `#111218` | Main Background |
-| **Trans Gray** | 🩶 | `#E4E7ED` | Primary Foreground Text |
-
+<table>
+  <tr>
+    <th>Color</th>
+    <th>Hex Code</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td><b>Cotton Pink</b></td>
+    <td><code>#F7A8B8</code></td>
+    <td>Active borders, Keywords, Primary accents</td>
+  </tr>
+  <tr>
+    <td><b>Sky Blue</b></td>
+    <td><code>#5BCEFA</code></td>
+    <td>Functions, Links, Selection borders</td>
+  </tr>
+  <tr>
+    <td><b>Cloud White</b></td>
+    <td><code>#FFFFFF</code></td>
+    <td>Strings, Constants, Pure highlights</td>
+  </tr>
+  <tr>
+    <td><b>Deep Night</b></td>
+    <td><code>#111218</code></td>
+    <td>Main application background</td>
+  </tr>
+  <tr>
+    <td><b>Trans Gray</b></td>
+    <td><code>#E4E7ED</code></td>
+    <td>Primary foreground text</td>
+  </tr>
+</table>
 ---
 
 ## 🌟 Visual Principles
