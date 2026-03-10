@@ -1,0 +1,54 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# The sequence: Blue -> Pink -> White -> Pink -> Blue
+format = """
+[](#5BCEFA)\
+$os\
+$username\
+[](bg:#F7A8B8 fg:#5BCEFA)\
+$directory\
+[](fg:#F7A8B8 bg:#E4E7ED)\
+$git_branch\
+$git_status\
+[](fg:#E4E7ED bg:#F7A8B8)\
+$c\
+$elixir\
+$elm\
+$golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$nodejs\
+$nim\
+$rust\
+$scala\
+[](fg:#F7A8B8 bg:#5BCEFA)\
+$docker_context\
+$time\
+[ ](fg:#5BCEFA)\
+"""
+
+[username]
+show_always = true
+style_user = "bg:#5BCEFA fg:#111218"
+style_root = "bg:#5BCEFA fg:#111218"
+format = '[$user ]($style)'
+disabled = false
+
+[directory]
+style = "bg:#F7A8B8 fg:#111218"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = ""
+style = "bg:#E4E7ED fg:#111218"
+format = '[ $symbol $branch ]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#5BCEFA fg:#111218"
+format = '[ ♥ $time ]($style)'

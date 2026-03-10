@@ -1,0 +1,93 @@
+/**
+ * ROFI Trans-Pride Theme
+ */
+
+configuration {
+    modi:                       "drun,run,window";
+    show-icons:                 true;
+    display-drun:               "";
+    drun-display-format:        "{name}";
+    font:                       "JetBrainsMono NF 11";
+}
+
+* {
+    /* Trans-Pride Color Palette */
+    bg-window:   #111218E6; 
+    bg-item:     #191B24;   
+    accent:      #F7A8B8;   /* Cotton Pink */
+    sky-blue:    #5BCEFA;   /* Sky Blue */
+    fg-main:     #E4E7ED;   /* Trans-Gray */
+    placeholder: #8290A8;   /* Muted Fog */
+    
+    background-color:   transparent;
+    text-color:         @fg-main;
+}
+
+window {
+    width:              600px;
+    border:             2px;
+    border-color:       @accent;
+    border-radius:      12px;
+    background-color:   @bg-window;
+    location:           center;
+    anchor:             center;
+}
+
+inputbar {
+    padding:            20px;
+    children:           [ "prompt", "entry" ];
+}
+
+prompt {
+    text-color:         @accent;
+}
+
+entry {
+    placeholder:        "Search Apps...";
+    placeholder-color:  @placeholder;
+    text-color:         @fg-main;
+}
+
+listview {
+    columns:            1;
+    lines:              8;
+    spacing:            8px;
+    margin:             0px 15px 15px 15px;
+    fixed-height:       true;
+}
+
+element {
+    padding:            8px;
+    spacing:            10px;
+    border-radius:      8px;
+    border:             1px;
+    border-color:       #262936; /* Surface */
+}
+
+element normal.normal,
+element alternate.normal,
+element normal.active,
+element alternate.active,
+element normal.urgent,
+element alternate.urgent {
+    background-color:   @bg-item;
+    text-color:         @fg-main;
+}
+
+element selected.normal,
+element selected.active {
+    background-color:   @accent;
+    text-color:         #111218; /* Deep Base for contrast */
+    border-color:       @sky-blue; /* Sky Blue border for pop */
+}
+
+element-icon {
+    size:               24px;
+    background-color:   transparent;
+}
+
+element-text {
+    background-color:   transparent;
+    text-color:         inherit;
+    vertical-align:     0.5;
+}
