@@ -59,23 +59,7 @@ Ethereal Pride utilizes **linear hex-gradients** to represent the full pride fla
 
 ---
 
-## 🛠️ Configuration Snippets
 
-### 🌙 Discord (Midnight CSS)
-```css
-:root {
-    --accent-1: #F7A8B8; /* Cotton Pink */
-    --accent-2: #5BCEFA; /* Sky Blue */
-    --text-1: #E4E7ED;   /* Primary Text */
-    --bg-4: #111218;     /* Main Background */
-}
-❄️ Hyprland (2026 Unified Syntax)
-Ini, TOML
-windowrule {
-    name = active-glow
-    match:class = .*
-    col.active_border = rgba(F7A8B8ee) rgba(5BCEFAee) 45deg
-}
 <hr />
 
 <div align="center">
