@@ -60,7 +60,6 @@ Ethereal Pride utilizes **linear hex-gradients** to represent the full pride fla
 ---
 
 
-<hr />
 
 <div align="center">
 <p>Built with ❤️ for the Trans community.</p>
