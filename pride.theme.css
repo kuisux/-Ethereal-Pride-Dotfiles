@@ -1,0 +1,32 @@
+/**
+ * @name Ethereal Pride
+ * @description A soft, dreamy theme inspired by the Trans Pride flag.
+ * @author YourName
+ * @version 1.0.2
+*/
+
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+:root {
+    --colors: on;
+
+    /* Primary Text and Backgrounds */
+    --text-1: #E4E7ED; 
+    --text-2: #8290A8; 
+    --bg-4: #111218;   
+    --bg-3: #191B24;   
+    --bg-2: #15161E;   
+    --bg-1: #0D0E14;   
+
+    /* Interactive Accents */
+    --accent-1: #F7A8B8; /* Cotton Pink */
+    --accent-2: #5BCEFA; /* Sky Blue */
+    --accent-3: #FFFFFF; /* Cloud White */
+    --accent-new: var(--accent-1);
+
+    /* Status Indicators */
+    --online: #5BCEFA;    
+    --idle: #F6E088;      
+    --dnd: #F7A8B8;       
+    --streaming: #B48EAD; 
+}
