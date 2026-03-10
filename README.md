@@ -10,38 +10,15 @@
 ## 🎨 The Palette
 This palette is engineered for professional readability by balancing deep "Night Sky" foundations with vibrant pastel accents.
 
-<table>
-  <tr>
-    <th>Color</th>
-    <th>Sample</th>
-    <th>Hex</th>
-  </tr>
-  <tr>
-    <td><b>Cotton Pink</b></td>
-    <td><div style="background-color:#F7A8B8; width:40px; height:20px; border-radius:4px;"></div></td>
-    <td><code>#F7A8B8</code></td>
-  </tr>
-  <tr>
-    <td><b>Sky Blue</b></td>
-    <td><div style="background-color:#5BCEFA; width:40px; height:20px; border-radius:4px;"></div></td>
-    <td><code>#5BCEFA</code></td>
-  </tr>
-  <tr>
-    <td><b>Cloud White</b></td>
-    <td><div style="background-color:#FFFFFF; width:40px; height:20px; border-radius:4px; border: 1px solid #ccc;"></div></td>
-    <td><code>#FFFFFF</code></td>
-  </tr>
-  <tr>
-    <td><b>Deep Night</b></td>
-    <td><div style="background-color:#111218; width:40px; height:20px; border-radius:4px;"></div></td>
-    <td><code>#111218</code></td>
-  </tr>
-  <tr>
-    <td><b>Trans Gray</b></td>
-    <td><div style="background-color:#E4E7ED; width:40px; height:20px; border-radius:4px; border: 1px solid #ccc;"></div></td>
-    <td><code>#E4E7ED</code></td>
-  </tr>
-</table>
+### 🎨 The Palette
+
+| Color | Sample | Hex Code | Purpose |
+| :--- | :---: | :--- | :--- |
+| **Cotton Pink** | 💖 | `#F7A8B8` | Active Borders, Keywords |
+| **Sky Blue** | 💙 | `#5BCEFA` | Functions, Links, Selection |
+| **Cloud White** | 🤍 | `#FFFFFF` | Strings, Constants, Highlights |
+| **Deep Night** | 🖤 | `#111218` | Main Background |
+| **Trans Gray** | 🩶 | `#E4E7ED` | Primary Foreground Text |
 
 ---
 
